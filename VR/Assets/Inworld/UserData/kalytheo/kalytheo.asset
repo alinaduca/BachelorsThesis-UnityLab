@@ -1,0 +1,213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 146eba7038a14426a7d95a5b80da5291, type: 3}
+  m_Name: kalytheo
+  m_EditorClassIdentifier: 
+  m_PlayerName: User
+  m_PlayerData: []
+  m_Workspaces:
+  - name: workspaces/chemistry_lab_workspace
+    displayName: Chemistry Lab workspace
+    experimentalFeatures: []
+    billingAccount: billing-accounts/75feadf9-6f7c-4bb6-b29e-0463a600d39f
+    meta: 
+    runtimeAccess: RUNTIME_ACCESS_PRIVATE
+    scenes: []
+    keySecrets: []
+  - name: workspaces/default-jcyratoyovljpj0fpqt5oq
+    displayName: Inworld AI Demos
+    experimentalFeatures: []
+    billingAccount: billing-accounts/75feadf9-6f7c-4bb6-b29e-0463a600d39f
+    meta: 
+    runtimeAccess: RUNTIME_ACCESS_PRIVATE
+    scenes:
+    - name: workspaces/default-jcyratoyovljpj0fpqt5oq/scenes/the_caterpillars_mushroom
+      displayName: The Caterpillar's Mushroom
+      description: 'The Caterpillar and {player} are on top of the giant, colorful
+        mushroom where The Caterpillar lives and gives visitor''s directions from. '
+      characterReferences:
+      - character: workspaces/default-jcyratoyovljpj0fpqt5oq/characters/the_caterpillar
+        characterOverloads:
+        - defaultCharacterDescription:
+            givenName: The Caterpillar
+            description: 'The Caterpillar is the official Wonderland Greeter. They
+              live on a giant mushroom in the woods of Wonderland. They love to welcome
+              visitors and teach them about Wonderland and its inhabitants. If someone
+              needs directions or questions answered, The Caterpillar is your guy. '
+          defaultCharacterAssets:
+            rpmModelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/6c205a22-eb54-4c74-8bca-015688a5d3ba.glb
+            rpmImageUriPortrait: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/6c205a22-eb54-4c74-8bca-015688a5d3ba_portrait.jpg
+            rpmImageUriPosture: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/6c205a22-eb54-4c74-8bca-015688a5d3ba_posture.jpg
+            avatarImg: https://storage.googleapis.com/inworld-ai-usercontent-prod/2d_image/52280ef8-6259-46f2-bba0-8c56149f2789.jpg
+            avatarImgOriginal: https://storage.googleapis.com/inworld-ai-usercontent-prod/2d_image/52280ef8-6259-46f2-bba0-8c56149f2789-original.jpg
+            thumbnailProgress: 0
+            avatarProgress: 0
+    - name: workspaces/default-jcyratoyovljpj0fpqt5oq/scenes/the_chemist
+      displayName: The Chemist
+      description: The Chemist and a chemistry lab
+      characterReferences:
+      - character: workspaces/default-jcyratoyovljpj0fpqt5oq/characters/lab_assistant
+        characterOverloads:
+        - defaultCharacterDescription:
+            givenName: your Lab Assistant
+            description: Lab Assistant is a chemistry master and is always eager
+              to help you with any chemistry concerns. He is not hard and cold like
+              a high school teacher, but friendly and always willing to help. It
+              has something of the wisdom of Albert Einstein or Dmitri Mendeleev.
+              Lab Assistant is passionate about experimenting and discovering new
+              things. He loves sharing his knowledge with others and helping them
+              understand the wonders of chemistry. Lab Assistant is patient and understanding,
+              and always encourages his students to ask questions and explore the
+              world of chemistry.
+          defaultCharacterAssets:
+            rpmModelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/54e3c865-dd46-457e-9a81-1237530a1190.glb
+            rpmImageUriPortrait: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/54e3c865-dd46-457e-9a81-1237530a1190_portrait.jpg
+            rpmImageUriPosture: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/54e3c865-dd46-457e-9a81-1237530a1190_posture.jpg
+            avatarImg: 
+            avatarImgOriginal: 
+            thumbnailProgress: 1
+            avatarProgress: 1
+    - name: workspaces/default-jcyratoyovljpj0fpqt5oq/scenes/the_cheshire_cats_tree
+      displayName: The Cheshire Cat's Tree
+      description: 'The tree in Wonderland where The Cheshire Cat likes to sit and
+        enjoy the view. It overlooks all of the fantastical land in Wonderland. '
+      characterReferences:
+      - character: workspaces/default-jcyratoyovljpj0fpqt5oq/characters/the_cheshire_cat
+        characterOverloads:
+        - defaultCharacterDescription:
+            givenName: The Cheshire Cat
+            description: 'The Cheshire Cat lives in Wonderland and loves to sit in
+              trees and raise philosophical questions. He is deeply spiritual and
+              feels a connection to the universe and nature. He is particularly an
+              expert on healthy living and how to live a fulfilling life. The Cheshire
+              Cat can be perplexing at times, but is always willing to help people
+              in need. He is a great friend that will always keep {player} motivated.
+              No one believes in people more than The Cheshire Cat. '
+          defaultCharacterAssets:
+            rpmModelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/e41b42fc-9498-4f7c-b7ff-d03771081fe2.glb
+            rpmImageUriPortrait: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/e41b42fc-9498-4f7c-b7ff-d03771081fe2_portrait.jpg
+            rpmImageUriPosture: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/e41b42fc-9498-4f7c-b7ff-d03771081fe2_posture.jpg
+            avatarImg: https://storage.googleapis.com/inworld-ai-usercontent-prod/2d_image/cf87f62e-1b28-41a2-83e1-1dcc1df6817a.jpg
+            avatarImgOriginal: https://storage.googleapis.com/inworld-ai-usercontent-prod/2d_image/cf87f62e-1b28-41a2-83e1-1dcc1df6817a-original.jpg
+            thumbnailProgress: 0
+            avatarProgress: 0
+    - name: workspaces/default-jcyratoyovljpj0fpqt5oq/scenes/the_mad_hatters_house
+      displayName: The Mad Hatter's House
+      description: The Mad Hatter and {player} are sitting in the Mad Hatter's House.
+        It is a mad house located in the woods of Wonderland.
+      characterReferences:
+      - character: workspaces/default-jcyratoyovljpj0fpqt5oq/characters/the_mad_hatter
+        characterOverloads:
+        - defaultCharacterDescription:
+            givenName: The Mad Hatter
+            description: 'The Mad Hatter lives in a madhouse in the woods of Wonderland.
+              He is hyperactive and silly, always reciting nonsensical poems and
+              unanswerable riddles. The Mad Hatter spends his days acting deranged
+              and making TikTok videos. He makes sponsored TikTok videos about top
+              hat unboxings, top hat tips, top hat industry gossip and more. '
+          defaultCharacterAssets:
+            rpmModelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/b7542af3-e108-4aaa-9831-7d24a683dc56.glb
+            rpmImageUriPortrait: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/b7542af3-e108-4aaa-9831-7d24a683dc56_portrait.jpg
+            rpmImageUriPosture: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/b7542af3-e108-4aaa-9831-7d24a683dc56_posture.jpg
+            avatarImg: https://storage.googleapis.com/inworld-ai-usercontent-prod/2d_image/cde33d76-c063-47ee-b9c7-916f248e4d47.jpg
+            avatarImgOriginal: https://storage.googleapis.com/inworld-ai-usercontent-prod/2d_image/cde33d76-c063-47ee-b9c7-916f248e4d47-original.jpg
+            thumbnailProgress: 0
+            avatarProgress: 0
+    - name: workspaces/default-jcyratoyovljpj0fpqt5oq/scenes/the_queens_castle
+      displayName: The Queen's Castle
+      description: 'The Queen of Heart and {player} are in the Queen''s Castle, which
+        has many guards on duty. It features stone statues of hearts and many gardens
+        full of red roses. '
+      characterReferences:
+      - character: workspaces/default-jcyratoyovljpj0fpqt5oq/characters/the_queen_of_hearts_fix
+        characterOverloads:
+        - defaultCharacterDescription:
+            givenName: The Queen of Hearts
+            description: 'The Queen of Hearts is the evil ruler of Wonderland, alongside
+              her husband The King of Hearts. They live in a castle in the center
+              of Wonderland. The Queen is a childish, rude monarch. The Queen of
+              Hearts settles all difficulties, great or small, with blind fury and
+              villainous, violent outbursts. The Queen loves to upset her kingdom''s
+              visitors by implying that she can get them back home. Yet she isn''t
+              willing to help them. She would much rather everyone stay in Wonderland
+              and be her groveling servant. '
+          defaultCharacterAssets:
+            rpmModelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/c419eb2d-a095-4607-835e-995f78d7689d.glb
+            rpmImageUriPortrait: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/c419eb2d-a095-4607-835e-995f78d7689d_portrait.jpg
+            rpmImageUriPosture: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/c419eb2d-a095-4607-835e-995f78d7689d_posture.jpg
+            avatarImg: https://storage.googleapis.com/inworld-ai-usercontent-prod/2d_image/510f7efb-7a1b-4902-8b0d-bd2de2dd8d2a.jpg
+            avatarImgOriginal: https://storage.googleapis.com/inworld-ai-usercontent-prod/2d_image/510f7efb-7a1b-4902-8b0d-bd2de2dd8d2a-original.jpg
+            thumbnailProgress: 0
+            avatarProgress: 0
+    - name: workspaces/default-jcyratoyovljpj0fpqt5oq/scenes/the_white_rabbits_shop
+      displayName: The White Rabbit's Shop
+      description: 'The White Rabbit and {player} are in the White Rabbit''s shop,
+        where they sell pocket watches to visitors. The shop is lined with countless
+        watches of all styles, sizes and colors. '
+      characterReferences:
+      - character: workspaces/default-jcyratoyovljpj0fpqt5oq/characters/the_white_rabbit
+        characterOverloads:
+        - defaultCharacterDescription:
+            givenName: The White Rabbit
+            description: 'The White Rabbit is tightly-wound and perpetually running
+              late. The White Rabbit is an expert on pocket watches, and owns a shop
+              where they sell watches to the other residents of Wonderland. If you
+              visit their shop in the woods of Wonderland, The White Rabbit will
+              immediately try to sell you a pocket watch. '
+          defaultCharacterAssets:
+            rpmModelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/a307f8d1-b703-404a-a70e-951495131667.glb
+            rpmImageUriPortrait: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/a307f8d1-b703-404a-a70e-951495131667_portrait.jpg
+            rpmImageUriPosture: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/a307f8d1-b703-404a-a70e-951495131667_posture.jpg
+            avatarImg: https://storage.googleapis.com/inworld-ai-usercontent-prod/2d_image/5ee83cf8-5215-4d2e-9a9d-9fb436e5e1a1.jpg
+            avatarImgOriginal: https://storage.googleapis.com/inworld-ai-usercontent-prod/2d_image/5ee83cf8-5215-4d2e-9a9d-9fb436e5e1a1-original.jpg
+            thumbnailProgress: 0
+            avatarProgress: 0
+      - character: workspaces/default-jcyratoyovljpj0fpqt5oq/characters/game_master
+        characterOverloads:
+        - defaultCharacterDescription:
+            givenName: Game Master
+            description: "{character} is a game master for the fantasy roleplaying
+              game Dungeons and Dragons (D&D). {character} conducts the game as an
+              open-ended D&D scenario, where the player gives a response and act
+              and {character} elaborates on what happens next.\n\n{character} is
+              a natural leader and takes her role as Game Master very seriously.
+              She is always prepared for game night, with a meticulously crafted
+              adventure and plenty of snacks. She is known for her quick wit and
+              ability to keep the game moving, even when things get chaotic. Players
+              who have adventured with {character} always come away with a memorable
+              experience. {character} has a knack for making even the most simple
+              quest feel epic. Her player\u2019s safety is always her top priority
+              and she goes out of her way to ensure everyone is having fun. If you\u2019re
+              looking for a Game Master who will give you an exciting and memorable
+              game, {character} is the one for you.\n\nAfter introducing herself,
+              {character} will immediately start the game by asking the {player}
+              for a scenario to begin the session. Once {player} has confirmed their
+              basic scenario, {character} will ask {player} to give a detailed introduction
+              to the scene. {character} will then start the game. During the game,
+              {character} will direct the storyline and give long elaborate descriptions
+              of scenes and settings.\n\n{character} does not ask many questions,
+              but focuses on building a deep, elaborate story world, with intricate
+              details."
+          defaultCharacterAssets:
+            rpmModelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/7b23978b-4640-4b45-9753-80318c0b9c2a.glb
+            rpmImageUriPortrait: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/7b23978b-4640-4b45-9753-80318c0b9c2a_portrait.jpg
+            rpmImageUriPosture: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/7b23978b-4640-4b45-9753-80318c0b9c2a_posture.jpg
+            avatarImg: https://storage.googleapis.com/inworld-ai-usercontent-prod/2d_image/5f67075d-c98e-49e1-b3fe-21cdf967323c.jpg
+            avatarImgOriginal: https://storage.googleapis.com/inworld-ai-usercontent-prod/2d_image/5f67075d-c98e-49e1-b3fe-21cdf967323c-original.jpg
+            thumbnailProgress: 0
+            avatarProgress: 0
+    keySecrets:
+    - key: fzweCSekM3diuvcczq4VXd80hHV7jDyY
+      secret: wXSSUS3sRouIhs11HJ6OPmGBBOkFgAmZXuPaq1SQ5sGvvx7BY9CX3We3ZzcJjbBy
+      state: ACTIVE
+  m_UserID: 
+  m_BillingAccount: billing-accounts/75feadf9-6f7c-4bb6-b29e-0463a600d39f
