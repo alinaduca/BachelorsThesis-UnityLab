@@ -1,1 +1,1 @@
-# BachelorsThesis-ExperimentingWithChemicalReactionsInVR
+# Experimenting with Chemical Reactions in Virtual Reality
