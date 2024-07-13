@@ -12,3 +12,5 @@
 ## Documentation
 
 - [Thesis Documentation: Experimenting with Chemical Reactions in Virtual Reality](https://github.com/alinaduca/BachelorsThesis-UnityLab/blob/main/Bachelor's%20Thesis.pdf)
+
+**Final mark:** 10
