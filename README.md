@@ -7,7 +7,7 @@
 
 ## Presentation
 
-- [Google Slides Presentation](https://docs.google.com/presentation/d/1Dmxh4JshfVPkPvOmYnUUAHg3yHbqJmKt9p5QbTVI8CI/edit#slide=id.g4dfce81f19_0_45)
+- [Google Slides Presentation](https://github.com/alinaduca/BachelorsThesis-UnityLab/blob/main/Presentation.pdf)
 
 ## Documentation
 
